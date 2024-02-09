@@ -150,7 +150,7 @@
          
           <div class="col-3 align-self-center">
               New: <br>
-              <input id="ODInput" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="ODInput" type="number" size="8" value=0 style="width: 6em" max="10" min="0" step="0.1"/>
       
           </div>
           <div class="col-2 align-self-end">
@@ -177,14 +177,14 @@
           </div>
           <div class="col-2 align-self-center">
             Actual: <br>
-             <input id="OD0Actual" type="number" size="8" value=0 style="width: 4em"/>
+             <input id="OD0Actual" type="number" size="8" value=0 style="width: 4em" max="10" min="0" step="0.1"/>
             
           </div>
            
          
           <div class="col-3 align-self-center">
               Measured:<br>
-              <input id="OD0Input" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="OD0Input" type="number" size="8" value=0 style="width: 6em" max="10" min="0" step="0.1"/>
       
           </div>
           <div class="col-2 align-self-end">
@@ -215,7 +215,7 @@
          
           <div class="col-3 align-self-center">
               New: <br>
-              <input id="VolumeInput" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="VolumeInput" type="number" size="8" value=0 style="width: 6em" max="50" min="0" step="1"/>
       
           </div>
           <div class="col-2 align-self-end">
@@ -262,7 +262,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDAInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDAInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -292,7 +292,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDBInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDBInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -323,7 +323,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDCInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDCInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -354,7 +354,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDDInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDDInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -385,7 +385,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDEInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDEInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -417,7 +417,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDFInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDFInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -448,7 +448,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LEDGInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LEDGInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -482,7 +482,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="LASER650Input" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="LASER650Input" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -512,7 +512,7 @@
           </div>
           <div class="col-2 align-self-center">
               New: <br>
-              <input id="UVInput" type="number" size="5" value=0 style="width: 4em"/>
+              <input id="UVInput" type="number" size="5" value=0 style="width: 4em" max="1" min="0" step="0.1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -659,7 +659,7 @@
          
           <div class="col-3 align-self-center">
               New: <br>
-              <input id="ThermostatInput" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="ThermostatInput" type="number" size="8" value=0 style="width: 6em" max="50" min="0" step="1"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -704,7 +704,8 @@
          
           <div class="col-3 align-self-center">
               New Rate: <br>
-              <input id="Pump1Input" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="Pump1Input" type="number" size="8" value=0 style="width: 6em" step="0.05" max="1" min="-1"/>
+
       
           </div>
           <div class="col-5 align-self-center">
@@ -736,7 +737,7 @@
          
           <div class="col-3 align-self-center">
               New Rate: <br>
-              <input id="Pump2Input" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="Pump2Input" type="number" size="8" value=0 style="width: 6em" step="0.05" max="1" min="-1"/>
       
           </div>
           <div class="col-5 align-self-center">
@@ -772,7 +773,7 @@
          
           <div class="col-3 align-self-center">
               New Rate: <br>
-              <input id="Pump3Input" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="Pump3Input" type="number" size="8" value=0 style="width: 6em" step="0.05" max="1" min="-1"/>
       
           </div>
           <div class="col-5 align-self-center">
@@ -809,7 +810,7 @@
          
           <div class="col-3 align-self-center">
               New Rate: <br>
-              <input id="Pump4Input" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="Pump4Input" type="number" size="8" value=0 style="width: 6em" step="0.05" max="1" min="-1"/>
       
           </div>
           <div class="col-5 align-self-center">
@@ -843,7 +844,7 @@
          
           <div class="col-3 align-self-center">
               New Rate: <br>
-              <input id="StirInput" type="number" size="8" value=0 style="width: 6em"/>
+              <input id="StirInput" type="number" size="8" value=0 style="width: 6em" step="0.1" max="1" min="0"/>
       
           </div>
           <div class="col-4 align-self-center">
@@ -880,7 +881,7 @@
          
           <div class="col-3 align-self-center">
               New: <br>
-              <input id="LightInput" type="number" size="8" value=0 style="width: 6em"/> 
+              <input id="LightInput" type="number" size="8" value=0 style="width: 6em" max="1" min="0" step="0.1"/> 
                
           </div>
           <div class="col-4 align-self-center">
